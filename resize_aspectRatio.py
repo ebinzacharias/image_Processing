@@ -31,7 +31,7 @@ def resize_images_fixed_resolution(input_dir, output_dir, width, height, quality
 
 # Example usage
 input_image_directory = "images/"
-output_directory = "images/"
+output_directory = "images/resized/"
 resize_images_fixed_resolution(input_image_directory, output_directory, width=1518, height=628, quality=85, optimize=True)
 
 
